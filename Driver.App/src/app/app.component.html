@@ -1,0 +1,21 @@
+<div>
+  <h2>Register</h2>
+  <div>name: <input [(ngModel)] = "registerDto.name"></div>
+  <div>Email: <input [(ngModel)] = "registerDto.email"></div>
+  <div>password: <input [(ngModel)] = "registerDto.password"></div>
+  <button (click)="register(registerDto)">Register</button>
+
+  <hr>
+  <hr>
+  <h2>Login</h2>
+  <div>Email: <input [(ngModel)] = "loginDto.email"></div>
+  <div>password: <input [(ngModel)] = "loginDto.password"></div>
+  <button (click)="login(loginDto)">Login</button>
+
+
+  <hr>
+  <hr>
+
+  <button (click)="weather()">GetWeather</button>
+
+</div>

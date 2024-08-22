@@ -1,0 +1,5 @@
+The app is working perfectly fine.
+Created in asp.net core 8
+The Angular version used for the app is 18.
+
+Just Run the migration and connect to sQL server. 
